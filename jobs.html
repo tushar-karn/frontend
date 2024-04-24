@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/style.css"> <!--Sytlesheet -->
+</head>
+
+<body>
+    <!-- head  -->
+    <header class="header">
+        <section class="flex">
+            <div id="menu-btn" class="fas fa-bars-staggered"></div>
+            <a href="home.html" class="logo"><i class="fas fa-briefcase"></i> JOB Space.</a>
+            <nav class="navbar">
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="jobs.html">All Jobs</a>
+                <a href="contact.html">Contact</a>
+                <a href="login.html">Account</a>
+            </nav>
+
+            <a href="#" class="btn" style="margin-top: 0;">Post Job</a>
+
+        </section>
+    </header>
+    <!-- header  -->
+
+
+
+
+    <!-- jobs filter  -->
+
+    <section class="job-filter">
+        <h1 class="heading">Filter Jobs</h1>
+        <form action="" method="post">
+            <div class="flex">
+                <div class="box">
+                    <p>Job Title <span>*</span></p>
+                    <input type="text" name="title" placeholder="keyword , category or company" required maxlength="20"
+                        class="input">
+                </div>
+                <div class="box">
+                    <p>Job Location</p>
+                    <input type="text" name="location" placeholder="city, state or country" required maxlength="50"
+                        class="input">
+                </div>
+            </div>
+            <div class="dropdown-container">
+                <div class="dropdown">
+                    <input type="text" readonly placeholder="date posted" name="date" maxlength="20" class="output">
+                    <div class="lists">
+                        <p class="items">Today</p>
+                        <p class="items">3days ago</p>
+                        <p class="items">7days ago</p>
+                        <p class="items">10days ago</p>
+                        <p class="items">15days ago</p>
+                        <p class="items">30days ago</p>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <input type="text" readonly placeholder="Estimated Salary" name="date" maxlength="20"
+                        class="output">
+                    <div class="lists">
+                        <p class="items">Today</p>
+                        <p class="items">3days ago</p>
+                        <p class="items">7days ago</p>
+                        <p class="items">10days ago</p>
+                        <p class="items">15days ago</p>
+                        <p class="items">30days ago</p>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <input type="text" readonly placeholder="Job Type" name="date" maxlength="20" class="output">
+                    <div class="lists">
+                        <p class="items">Today</p>
+                        <p class="items">3days ago</p>
+                        <p class="items">7days ago</p>
+                        <p class="items">10days ago</p>
+                        <p class="items">15days ago</p>
+                        <p class="items">30days ago</p>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <input type="text" readonly placeholder="Education Level" name="date" maxlength="20" class="output">
+                    <div class="lists">
+                        <p class="items">Today</p>
+                        <p class="items">3days ago</p>
+                        <p class="items">7days ago</p>
+                        <p class="items">10days ago</p>
+                        <p class="items">15days ago</p>
+                        <p class="items">30days ago</p>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <input type="text" readonly placeholder="Work Shift" name="date" maxlength="20" class="output">
+                    <div class="lists">
+                        <p class="items">Today</p>
+                        <p class="items">3days ago</p>
+                        <p class="items">7days ago</p>
+                        <p class="items">10days ago</p>
+                        <p class="items">15days ago</p>
+                        <p class="items">30days ago</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </form>
+    </section>
+
+
+    <!-- jobs filter  -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- all jobs -->
+
+    <section class="jobs-container">
+        <h1 class="heading">All Jobs</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="company">
+                    <img src="/images/infosys.png" alt="">
+                    <div>
+                        <h3>IT Infosys</h3>
+                        <p> 2 Days Ago</p>
+                    </div>
+                </div>
+                <h3 class="job-title">Senior Web Developer</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i><span>mumbai, india</span></p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupee-sign"></i><span>10k - 25k</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>part-time</span></p>
+                    <p><i class="fas fa-clock"></i><span>day shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_job.html" class="btn">View Details</a>
+                    <button class="fas fa-heart"></button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="company">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/DeloitteNewSmall.png/220px-DeloitteNewSmall.png" alt="Deloitte">
+                    <div>
+                        <h3>Deloitte</h3>
+                        <p> 2 Days Ago</p>
+                    </div>
+                </div>
+                <h3 class="job-title">Experienced Frontend Developer</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i><span>Bangalore, India</span></p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupee-sign"></i><span>35k - 55k</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>part-time</span></p>
+                    <p><i class="fas fa-clock"></i><span>day shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_job2.html" class="btn">View Details</a>
+                    <button class="fas fa-heart"></button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="company">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQeOQvBZcFKMlIsnuNttmNy7fikh4B7ToXfg&usqp=CAU" alt="Capgemini Logo">
+                    <div>
+                        <h3>Capgemini</h3>
+                        <p> 2 Days Ago</p>
+                    </div>
+                </div>
+                <h3 class="job-title">Remote Backend Engineer </h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i><span>Pune, India</span></p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupee-sign"></i><span>35k - 55k</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>Full-time</span></p>
+                    <p><i class="fas fa-clock"></i><span>day shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_job3.html" class="btn">View Details</a>
+                    <button class="fas fa-heart"></button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="company">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvr1VGc0PYf-A5A1PL2MUO9esNb0wvb01LEg&usqp=CAU" alt="Oracle Logo">
+                    <div>
+                        <h3>Oracle</h3>
+                        <p> 2 Days Ago</p>
+                    </div>
+                </div>
+                <h3 class="job-title">Software Development Engineer </h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i><span>Bangalore, India</span></p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupee-sign"></i><span>100k - 205k</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>part-time</span></p>
+                    <p><i class="fas fa-clock"></i><span>day shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_job.html" class="btn">View Details</a>
+                    <button class="fas fa-heart"></button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="company">
+                    <img src="./images/netflix.png" alt="Netflix Logo">
+                    <div>
+                        <h3>Netflix India</h3>
+                        <p> 2 Days Ago</p>
+                    </div>
+                </div>
+                <h3 class="job-title">Senior Web Developer</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i><span>Mumbai, India</span></p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupee-sign"></i><span>40k - 95k</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>Part-time</span></p>
+                    <p><i class="fas fa-clock"></i><span>day shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_job.html" class="btn">View Details</a>
+                    <button class="fas fa-heart"></button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="company">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/384px-Facebook_icon.svg.png?20220812153731" alt="Facebook Logo">                    <div>
+                        <h3>Facebook</h3>
+                        <p> 2 Days Ago</p>
+                    </div>
+                </div>
+                <h3 class="job-title">React Native Developer</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i><span>Mumbai, India</span></p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupee-sign"></i><span>40k - 75k</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>Full-time</span></p>
+                    <p><i class="fas fa-clock"></i><span>day shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_job.html" class="btn">View Details</a>
+                    <button class="fas fa-heart"></button>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="company">
+                    <img src="https://lh3.googleusercontent.com/0bBfFEkB6ypK6aYw3JAjrk9Kkut-mICiVuQBFBLPdJRcXmUs6RJv3TSEb0HrJteG9Eyx9ITFMEOW10FrqDC41hQVsaukAgdtsXdNjis=w512-l90-sg-rj-c0xffffff" alt="Company Logo">
+                    <div>
+                        <h3>Google</h3>
+                        <p>3 Days Ago</p>
+                    </div>
+                </div>
+                <h3 class="job-title">Software Engineer</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i><span>Mountain View, CA, USA</span></p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupee-sign"></i><span>$100k - $200k</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>Full-time</span></p>
+                    <p><i class="fas fa-clock"></i><span>day shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_job.html" class="btn">View Details</a>
+                    <button class="fas fa-heart"></button>
+                </div>
+            </div>
+            
+            
+
+<div class="box">
+    <div class="company">
+        <img src="https://s3-symbol-logo.tradingview.com/amazon--600.png" alt="Company Logo">
+        <div>
+            <h3>Amazon</h3>
+            <p>1 Week Ago</p>
+        </div>
+    </div>
+    <h3 class="job-title">Backend Developer</h3>
+    <p class="location"><i class="fas fa-map-marker-alt"></i><span>Seattle, WA, USA</span></p>
+    <div class="tags">
+        <p><i class="fas fa-indian-rupee-sign"></i><span>$90k - $150k</span></p>
+        <p><i class="fas fa-briefcase"></i><span>Full-time</span></p>
+        <p><i class="fas fa-clock"></i><span>day shift</span></p>
+    </div>
+    <div class="flex-btn">
+        <a href="view_job.html" class="btn">View Details</a>
+        <button class="fas fa-heart"></button>
+    </div>
+</div>
+
+<!-- Job Listing 3 -->
+<div class="box">
+    <div class="company">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAVFBMVEX////yUCJ/ugAApO//uQDxOgBytADyShT2j3v/+/T/tAAAnO74+/R7uACpz3T0+f50wPTxMgD1hW//rgDwHABnrwDxQwD4s6ejzGgAle0Amu5ovPNVGgEPAAABAklEQVR4nO3biQnCQBRF0bhkceKWxGjU/vsUHKzgMyDh3AIenAJeVUmSJEmSJEmSJEmSJEmSpH/tVocaxu/KcW5CzQWF9SZU22Vhsw3VEBISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhKuSDi0oe4/4SlUSeHYxXpk4XIOtRQUSlL5LtHyzCFYQeGzD/V6Z+CUQk0Fhf0u1jUL0z5UIiQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCRckXD97zxJkiRJkiRJkiRJkiRJkhTrA29gzkcc3y0uAAAAAElFTkSuQmCC" alt="Company Logo">
+        <div>
+            <h3>Microsoft</h3>
+            <p>4 Days Ago</p>
+        </div>
+    </div>
+    <h3 class="job-title">Data Scientist</h3>
+    <p class="location"><i class="fas fa-map-marker-alt"></i><span>Redmond, WA, USA</span></p>
+    <div class="tags">
+        <p><i class="fas fa-indian-rupee-sign"></i><span>$80k - $120k</span></p>
+        <p><i class="fas fa-briefcase"></i><span>Full-time</span></p>
+        <p><i class="fas fa-clock"></i><span>day shift</span></p>
+    </div>
+    <div class="flex-btn">
+        <a href="view_job.html" class="btn">View Details</a>
+        <button class="fas fa-heart"></button>
+    </div>
+</div>
+            <div class="box">
+                <div class="company">
+                    <img src="data:image/jpeg;base64,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"
+                        alt="PayPal Logo">
+                    <div>
+                        <h3>PayPal</h3>
+                        <p>2 Days Ago</p>
+                    </div>
+                </div>
+                <h3 class="job-title">UX Designer</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i><span>San Jose, USA</span></p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupee-sign"></i><span>80k - 100k</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>full-time</span></p>
+                    <p><i class="fas fa-clock"></i><span>day shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_job.html" class="btn">View Details</a>
+                    <button class="fas fa-heart"></button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="company">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_logo.png"
+                        alt="Tesla Logo">
+                    <div>
+                        <h3>Tesla</h3>
+                        <p>2 Days Ago</p>
+                    </div>
+                </div>
+                <h3 class="job-title">AI Engineer</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i><span>Palo Alto, USA</span></p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupee-sign"></i><span>90k - 120k</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>full-time</span></p>
+                    <p><i class="fas fa-clock"></i><span>night shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_job.html" class="btn">View Details</a>
+                    <button class="fas fa-heart"></button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="company">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX///8ODg4AAAAICAjh4eF9fX0zMzNOTk7X19cqKiphYWGsrKwKCgr7+/vm5uZ0dHS8vLzu7u5DQ0OdnZ3Nzc1TU1OTk5O/v7+GhoZJSUl5eXlYWFi2trZmZmbx8fEmJiZubm45OTkeHh4YGBjIyMijo6Ourq6YmJiDg4OqYIa4AAAEDUlEQVR4nO3cWWOiMBQFYLmIomLdWxds1S76/3/hAC4VSpxOPc690vM985AjCTcJkVqNiIiIiIiIiIiIiIiIiIiIiIiIiIiIiOiXCTtBoN2GGxr3JPGi3Yyb6bdEIs/zX7UbciNhQ8RLSUO7KbexO+RLEja123ILz41jviThXLs1N1CXz4CevGs3B68uvneWMNRuD9xzLmAk2u3Ba5110UoOwyAXsIKdNCwEbGk3CK5RSNjXbhBavxCwehOaVtVH4bgQsHorp16+UlTvMVNLl0snvgy02wOXKxW+1LXbg9c5n3FXMWCyKjwbg9Xroon2adlbwadoZnHYuJBh5ergwUL8dHdtMdZuyM2s5HUYxM/azaDvCePRNAge4wsDrt4Jmpuk067b0/jOKsfgvSmf2nG35JqnbL9b/CiK9pfN3/57O3/qLY33WdnTAMtC68OdSG4Ct79sVPZTmDNuSH79sC8P0fZU4LudRjHeKaT9ncVuuyTffhIqs04y2Ab9pTguyTK2jA/Isbvx6Y3cc1+RXfShHeKSUWnn+0cy1Y7hFly+Pd+OaHbKCgqYRHzUjlJuiwqYRDRZGp9wAZPHjcHC+Ix4yBwDvlgsGU1gH11qhynTBwa0WS1yrwSvC2jzQfoOu4Wy085SDnYLZaIdpRysUvgWy0RqApvNmCz1aS1EBWxrR3H4gCW0ug2+BCWUlXYSF9SEzewL4QfQLfQ32klcULXC6GymhlsYitm3GT1UQqPVHrZwijztIE4bzKRUZtpBnEDFwubCN4NK2NMO4lT5GQ0soeFeCko41A7iBBqHhg98+6iJt9mKv678rG1R+Zk36p2T3dOmI9gmhsXXFSnYXqLV3eBaHbfhbfVpikto9f02qlzYHYk7XEKjj1Pky0Ob/2QbIF/h2zz3BdrH2EfsaKcpMwXeRE9G2nFKvCET2tzOAB41SSMaPKC4gt5ET2RqbXaD7aZZRmtLKWw39QzuD0OfplnCWDtSAW59cUxobSDWZuBnjb2KgTx86dl84f0KnLl5staOU6IDnbk9accpgzueaPXMAvAmmisVB7CRaPb7ZrhdRaPn92A10fDHv0CHo+RBO4jbIyKiuVVFTuv6iFY3FA8A/dTqpvDR1Yf2Zasd4W+uPPJt+LjCUfeqyVskd/A1gvCam2i31p+7Yn5q9C9PX/z4vb4stJv+Xc6z+5GffUXBFdD+U+akXRIx+zbEZjZptuTL9xTuLmDJwegk1Co+zjcH/d7Xv+Wb/b+MQ6fwZYxh8fOI8TqXUUy+cbroYSL7ypgOvXnZTCxcHbpr2n/bhtcTTmGQfSdi03N+3bLbn6/TS5rbe8yX6Q6s/lWLiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIfq8/tzAurNL1lJsAAAAASUVORK5CYII="
+                        alt="Apple Logo">
+                    <div>
+                        <h3>Apple</h3>
+                        <p>2 Days Ago</p>
+                    </div>
+                </div>
+                <h3 class="job-title">iOS Developer</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i><span>Cupertino, USA</span></p>
+                <div class="tags">
+                    <p><i class="fas fa-indian-rupee-sign"></i><span>80k - 100k</span></p>
+                    <p><i class="fas fa-briefcase"></i><span>full-time</span></p>
+                    <p><i class="fas fa-clock"></i><span>day shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view_job.html" class="btn">View Details</a>
+                    <button class="fas fa-heart"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- all jobs  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <footer> -->
+
+    <footer class="footer">
+        <section class="grid">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="home.html"><i class="fas fa-angle-right"></i> home</a>
+                <a href="about.html"><i class="fas fa-angle-right"></i> about</a>
+                <a href="jobs.html"><i class="fas fa-angle-right"></i> all jobs</a>
+                <a href="contact.html"><i class="fas fa-angle-right"></i> contact us</a>
+                <a href="#"><i class="fas fa-angle-right"></i> filter search</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"><i class="fas fa-angle-right"></i>Account</a>
+                <a href="login.html"><i class="fas fa-angle-right"></i>Login</a>
+                <a href="register.html"><i class="fas fa-angle-right"></i>Register</a>
+                <a href="#"><i class="fas fa-angle-right"></i>Post Job</a>
+                <a href="#"><i class="fas fa-angle-right"></i>Dashboard</a>
+            </div>
+
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="#"> <i class="fab fa-instagram "></i> Instagram</a>
+                <a href="#"> <i class="fab fa-twitter"></i> Twitter </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> Linkedin </a>
+                <a href="#"> <i class="fab fa-youtube"></i> Youtube</a>
+            </div>
+
+
+        </section>
+        <div class="credits"> &copy; copyright @2024 by <span> <a href="http://tusharkarn.live/" target="_blank">Tushar
+                    Karn</a></span> All Rights Reserved! </div>
+    </footer>
+
+    <!-- </footer>  -->
+
+
+
+    <script src="/js/script.js"></script><!-- Javascript -->
+
+
+    <script>
+
+        let dropdown_items = document.querySelectorAll('.job-filter form .dropdown-container .dropdown .lists .items');
+
+        dropdown_items.forEach(items => {
+            items.onclick = () => {
+                items_parent = items.parentElement.parentElement;
+                let output = items_parent.querySelector('.output');
+                output.value = items.innerText;
+            }
+        });
+
+
+
+        function getQueryParams() {
+            const params = new URLSearchParams(window.location.search);
+            return {
+                title: params.get('title'),
+                location: params.get('location')
+            };
+        }
+
+        // Function to filter jobs based on title and location
+        function filterJobs(jobs, queryParams) {
+            const filteredJobs = jobs.filter(job => {
+                // Convert both job title and location to lowercase for case-insensitive comparison
+                const jobTitle = job.querySelector('.job-title').textContent.toLowerCase();
+                const jobLocation = job.querySelector('.location span').textContent.toLowerCase();
+                return jobTitle.includes(queryParams.title.toLowerCase()) &&
+                    jobLocation.includes(queryParams.location.toLowerCase());
+            });
+            return filteredJobs;
+        }
+
+        // Function to fetch job listings and display filtered jobs
+        function displayJobs() {
+            const queryParams = getQueryParams();
+            const jobListingsContainer = document.getElementById('jobListings');
+
+            // Fetch all job listing elements
+            const allJobElements = document.querySelectorAll('.box');
+
+            // Filter job elements based on query parameters
+            const filteredJobElements = filterJobs(allJobElements, queryParams);
+
+            // Display filtered job elements
+            filteredJobElements.forEach(job => {
+                jobListingsContainer.appendChild(job);
+            });
+        }
+
+        // Call the displayJobs function when the page loads
+        window.onload = displayJobs;
+
+    </script>
+
+
+</body>
+
+</html>
